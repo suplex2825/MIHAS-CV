@@ -1,0 +1,93 @@
+body {
+  padding-top: 3rem;
+  margin: 0;
+  font-family: 'Anton', sans-serif;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+
+.hoverit:hover {
+  transform: rotate(20deg);
+  transition-duration: 1s;
+}
+
+
+
+
+.ov {
+  overflow: auto;
+  margin-bottom: 0;
+}
+
+.textgive {
+  float: left;
+  max-width: 50%;
+  word-break: break-word;
+}
+
+
+.full {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: #bbb;
+  border-radius: 15px;
+  float: right;
+  margin: 0 1px;
+}
+
+
+#default {
+  background-color: #9932CC;
+  border-radius: 15px;
+  float: right;
+  margin: 0 1px;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+}
+
+
+.hugit:hover {
+  color: white!important;
+  background-color: #128f76!important;
+  border-color: #11866f!important;
+}
